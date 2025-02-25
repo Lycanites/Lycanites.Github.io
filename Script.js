@@ -32,6 +32,18 @@ function validar(form) {
     return false;
   }
 
+  // Si todo es válido, mostrar un popup con los datos
+  alert(
+    "Datos válidos:\nNombre: " +
+      nombre +
+      "\nEdad: " +
+      edad +
+      "\nSexo: " +
+      sexo +
+      "\nDeporte favorito: " +
+      deporte
+  );
+
   // Si todo es válido
   return true;
 }
